@@ -69,8 +69,8 @@ I'm a passionate front-end developer who loves to create beautiful and functiona
 ## 📈 GitHub Stats
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=yourusername&show_icons=true&theme=radical&hide_border=true" alt="GitHub Stats" width="48%" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=yourusername&layout=compact&theme=radical&hide_border=true" alt="Top Languages" width="42%" />
+  <img src="https://github-readme-stats.vercel.app/api?username=MHFADev&show_icons=true&theme=radical&hide_border=true" alt="GitHub Stats" width="48%" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=MHFADev&layout=compact&theme=radical&hide_border=true" alt="Top Languages" width="42%" />
 </p>
 
 <p align="center">
@@ -89,7 +89,8 @@ I'm a passionate front-end developer who loves to create beautiful and functiona
 
 A brief description of your project - what it does, the technologies used, and what you learned.
 
-### 🌟  ______       (https://github.com/yourusername/project2)
+### 🌟  ______       
+(https://github.com/yourusername/project2)
 ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white)
 ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white)
 ![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white)
