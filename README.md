@@ -22,3 +22,7 @@ const MHFADev = {
   <img src="https://img.shields.io/badge/Commit%20Daily-YES!-brightgreen?style=for-the-badge" />
   <img src="https://komarev.com/ghpvc/?username=MHFADev&style=for-the-badge&color=yellow" alt="profile views"/>
 </p>
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=MHFADev&theme=github_dark&show_icons=true&hide_border=true&count_private=true" height="165">
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=MHFADev&theme=github-dark-blue&hide_border=true" height="165">
+</p>
