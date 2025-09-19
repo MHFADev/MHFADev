@@ -16,3 +16,9 @@ const MHFADev = {
 <p align="center">
   <img src="https://media.giphy.com/media/26tn33aiTi1jkl6H6/giphy.gif" width="350" alt="Coding GIF"/>
 </p>
+<p align="center">
+  <img src="https://img.shields.io/badge/Automate-Everything-36bcf7?style=for-the-badge&logo=github" />
+  <img src="https://img.shields.io/badge/Open%20Source-%E2%9D%A4%EF%B8%8F-blue?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Commit%20Daily-YES!-brightgreen?style=for-the-badge" />
+  <img src="https://komarev.com/ghpvc/?username=MHFADev&style=for-the-badge&color=yellow" alt="profile views"/>
+</p>
