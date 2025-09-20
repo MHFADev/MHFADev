@@ -1,28 +1,11 @@
-<!-- README.md untuk repo MHFADev/MHFADev -->
+<h1 align="center">Hi 👋, I'm MHFADev</h1>
+<h3 align="center">frontend developer who is learning to become a Fullstuck, from Indonesia</h3>
 
-<p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=28&pause=1200&color=36BCF7&width=520&center=true&vCenter=true&lines=Hi%2C+I%E2%80%99m+MHFADev!;Automating+Life+with+Code+%F0%9F%94%A5;Open+Source+%7C+Commit+Daily+%7C+Have+Fun!;Let%E2%80%99s+break+stuff+and+fix+it+better!;Eat+%E2%9C%94%EF%B8%8F+Sleep+%E2%9C%94%EF%B8%8F+Code+%E2%9C%94%EF%B8%8F+Repeat+%E2%9C%94%EF%B8%8F" alt="Typing SVG" />
+- 🔭 I’m currently working on **website app**
+
+<h3 align="left">Connect with me:</h3>
+<p align="left">
 </p>
 
-```js
-// Welcome to my playground!
-const MHFADev = {
-  languages: ["JavaScript", "Python", "Shell", "TypeScript"],
-  workflow: ["GitHub Actions", "CI/CD", "Automation", "Open Source"],
-  funFact: "My code deploys itself while I sleep 😴",
-  motto: "Keep Committing 🚀",
-  hobbies: ["Debugging the Matrix", "Mie Instan Hunter 🍜", "Building bots"]
-}
-<p align="center">
-  <img src="https://media.giphy.com/media/26tn33aiTi1jkl6H6/giphy.gif" width="350" alt="Coding GIF"/>
-</p>
-<p align="center">
-  <img src="https://img.shields.io/badge/Automate-Everything-36bcf7?style=for-the-badge&logo=github" />
-  <img src="https://img.shields.io/badge/Open%20Source-%E2%9D%A4%EF%B8%8F-blue?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/Commit%20Daily-YES!-brightgreen?style=for-the-badge" />
-  <img src="https://komarev.com/ghpvc/?username=MHFADev&style=for-the-badge&color=yellow" alt="profile views"/>
-</p>
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=MHFADev&theme=github_dark&show_icons=true&hide_border=true&count_private=true" height="165">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=MHFADev&theme=github-dark-blue&hide_border=true" height="165">
-</p>
+<h3 align="left">Languages and Tools:</h3>
+<p align="left"> <a href="https://www.w3schools.com/css/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="css3" width="40" height="40"/> </a> <a href="https://www.w3.org/html/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="html5" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="40" height="40"/> </a> <a href="https://nodejs.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original-wordmark.svg" alt="nodejs" width="40" height="40"/> </a> <a href="https://www.python.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="40" height="40"/> </a> </p>
