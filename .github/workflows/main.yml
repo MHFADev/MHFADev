@@ -1,0 +1,40 @@
+name: generate flappy game
+on:
+  schedule:
+    - cron: "0 0 * * *"   # run daily at 00:00 UTC; ubah jika perlu
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+
+permissions:
+  contents: write
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 18
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Generate flappy SVG
+        env:
+          GITHUB_USER: ${{ github.repository_owner }}
+        run: node generate-flappy.js
+
+      - name: Commit generated SVG to output branch
+        uses: stefanzweifel/git-auto-commit-action@v4
+        with:
+          commit_message: "chore: update flappy contribution graph"
+          file_pattern: "dist/**"
+          branch: output
+          author_name: "github-actions[bot]"
+          author_email: "41898282+github-actions[bot]@users.noreply.github.com"
