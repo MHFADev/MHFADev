@@ -1,40 +1,30 @@
-name: generate flappy game
+name: Daily Auto Commit
+
 on:
-  schedule:
-    - cron: "0 0 * * *"   # run daily at 00:00 UTC; ubah jika perlu
-  workflow_dispatch:
   push:
     branches:
       - main
-
-permissions:
-  contents: write
+  schedule:
+    - cron: '0 7 * * *' # Ini akan jalan setiap jam 07:00 UTC (sekitar jam 2 siang WIB)
+  workflow_dispatch: # Tombol manual buat ngetes
 
 jobs:
-  generate:
+  auto_commit:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
     steps:
-      - name: Checkout
-        uses: actions/checkout@v4
+      - name: Checkout code
+        uses: actions/checkout@v3
 
-      - name: Setup Node.js
-        uses: actions/setup-node@v4
-        with:
-          node-version: 18
-
-      - name: Install dependencies
-        run: npm install
-
-      - name: Generate flappy SVG
-        env:
-          GITHUB_USER: ${{ github.repository_owner }}
-        run: node generate-flappy.js
-
-      - name: Commit generated SVG to output branch
-        uses: stefanzweifel/git-auto-commit-action@v4
-        with:
-          commit_message: "chore: update flappy contribution graph"
-          file_pattern: "dist/**"
-          branch: output
-          author_name: "github-actions[bot]"
-          author_email: "41898282+github-actions[bot]@users.noreply.github.com"
+      - name: Update activity log
+        run: |
+          echo "Activity log: $(date)" >> activity.txt
+          
+      - name: Commit and push changes
+        run: |
+          git config --global user.name "Isi_Username_GitHub_Mu"
+          git config --global user.email "Isi_Email_GitHub_Mu"
+          git add activity.txt
+          git commit -m "Daily bot update: $(date)"
+          git push
