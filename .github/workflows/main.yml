@@ -23,8 +23,8 @@ jobs:
           
       - name: Commit and push changes
         run: |
-          git config --global user.name "Isi_Username_GitHub_Mu"
-          git config --global user.email "Isi_Email_GitHub_Mu"
+          git config --global user.name MHFDev
+          git config --global user.email hilmi.firjatullah12@gmail.com
           git add activity.txt
           git commit -m "Daily bot update: $(date)"
           git push
