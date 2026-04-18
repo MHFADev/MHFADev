@@ -1,23 +1,74 @@
-<h1 align="center">Hi 👋, I'm MHFADev</h1>
-<h3 align="center">A passionate frontend developer from Indonesia</h3>
-
-<p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=mhfadev" alt="mhfadev" /></a> </p>
-
-- 👨‍💻 All of my projects are available at [hilmiporto.vercel.app](hilmiporto.vercel.app)
-
-- 💬 Ask me about **react, HTML, CSS, JavaScript**
-
-- 📫 How to reach me **hilmimax109@gmail.com**
-
-<h3 align="left">Connect with me:</h3>
-<p align="left">
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=200&section=header&text=Hilmi%20|%20MHFADev&fontSize=80&animation=fadeIn&fontAlignY=35" width="100%" />
 </p>
 
-<h3 align="left">Languages and Tools:</h3>
-<p align="left"> <a href="https://www.w3schools.com/css/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="css3" width="40" height="40"/> </a> <a href="https://www.w3.org/html/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="html5" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="40" height="40"/> </a> <a href="https://nodejs.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original-wordmark.svg" alt="nodejs" width="40" height="40"/> </a> <a href="https://www.postgresql.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/postgresql/postgresql-original-wordmark.svg" alt="postgresql" width="40" height="40"/> </a> <a href="https://www.python.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="40" height="40"/> </a> <a href="https://reactjs.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg" alt="react" width="40" height="40"/> </a> </p>
+<p align="center">
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=36BCF7&center=true&vCenter=true&width=435&lines=Fullstack+Developer;Tech+Enthusiast;Creative+Coder;Always+Learning" alt="Typing SVG" />
+</p>
 
-<p><img align="left" src="https://github-readme-stats.vercel.app/api/top-langs?username=mhfadev&show_icons=true&locale=en&layout=compact" alt="mhfadev" /></p>
+<p align="center">
+  <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=MHFADev&theme=tokyonight&rank=SSS" alt="MHFADev Trophies" /></a>
+</p>
 
-<p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=mhfadev&show_icons=true&locale=en" alt="mhfadev" /></p>
+---
 
-<p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=mhfadev&" alt="mhfadev" /></p>
+### 👨‍💻 Tentang Saya
+
+Saya adalah seorang pengembang web yang bersemangat dalam membangun solusi digital yang inovatif dan fungsional. Saya senang mengeksplorasi teknologi baru dan terus mengasah kemampuan saya dalam pengembangan perangkat lunak.
+
+- 🔭 Saya sedang mengerjakan proyek **Dongtube** dan **CoalToolKit**.
+- 🌱 Saya sedang memperdalam **TypeScript** dan **Modern Web Frameworks**.
+- 👯 Saya terbuka untuk kolaborasi pada proyek open-source yang menarik.
+- 💬 Tanya saya tentang **JavaScript, Python, atau Pengembangan Web**.
+- ⚡ Fun fact: Saya suka membuat klon game klasik seperti Flappy Bird!
+- 🔗 Portofolio: [hilmiporto.vercel.app](https://hilmiporto.vercel.app)
+
+---
+
+### 🛠️ Teknologi & Alat
+
+<p align="center">
+  <a href="https://skillicons.dev">
+    <img src="https://skillicons.dev/icons?i=html,css,js,ts,react,nextjs,nodejs,express,python,flask,git,github,vscode,replit,figma,mysql,postgres,tailwind,bootstrap" />
+  </a>
+</p>
+
+---
+
+### 📊 Statistik GitHub (Real-time)
+
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=MHFADev&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" alt="MHFADev's GitHub stats" />
+</p>
+
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=MHFADev&layout=compact&theme=tokyonight&hide_border=true" alt="Top Langs" />
+</p>
+
+<p align="center">
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=MHFADev&theme=tokyonight&hide_border=true" alt="GitHub Streak" />
+</p>
+
+---
+
+### 🤝 Mari Terhubung!
+
+<p align="center">
+  <a href="mailto:hilmi.firjatullah12@gmail.com">
+    <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
+  </a>
+  <a href="https://github.com/MHFADev">
+    <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
+  </a>
+  <a href="https://hilmiporto.vercel.app">
+    <img src="https://img.shields.io/badge/Portfolio-2563EB?style=for-the-badge&logo=vercel&logoColor=white" alt="Portfolio" />
+  </a>
+</p>
+
+<p align="center">
+  <img src="https://komarev.com/ghpvc/?username=MHFADev&color=blue&style=flat-square" alt="Visitor Count" />
+</p>
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/MHFADev/MHFADev/master/banner.png" width="100%" />
+</p>
