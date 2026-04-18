@@ -1,9 +1,9 @@
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=250&section=header&text=MHFADev&fontSize=90&animation=fadeIn&fontAlignY=35&desc=Fullstack%20Developer%20|%20Creative%20Coder&descAlignY=60&descSize=25" width="100%" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=250&section=header&text=MHFADev&fontSize=90&animation=fadeIn&fontAlignY=35&desc=Frontend%20Developer%20|%20AI-Powered%20Coding&descAlignY=60&descSize=25" width="100%" />
 </p>
 
 <p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=36BCF7&center=true&vCenter=true&width=500&lines=Building+Digital+Experiences;Fullstack+Web+Developer;Open+Source+Enthusiast;Turning+Coffee+into+Code" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=36BCF7&center=true&vCenter=true&width=500&lines=Frontend+Specialist;Vibe+Coding+Enthusiast;AI-Driven+Development;Crafting+Beautiful+UIs" alt="Typing SVG" />
 </p>
 
 <p align="center">
@@ -14,13 +14,27 @@
 
 ### 🚀 Tentang Saya
 
-Saya adalah seorang **Fullstack Developer** yang berdedikasi untuk menciptakan aplikasi web yang elegan dan berkinerja tinggi. Dengan latar belakang yang kuat dalam ekosistem JavaScript dan Python, saya senang memecahkan masalah kompleks melalui kode yang bersih dan efisien.
+Saya adalah seorang **Frontend Developer** yang sangat menyukai estetika dan performa dalam pengembangan web. Saya mengadopsi konsep **"Vibe Coding"**—menggabungkan kreativitas desain dengan kekuatan AI untuk membangun antarmuka yang luar biasa.
 
-- 🔭 **Sedang Mengerjakan:** [Dongtube](https://github.com/MHFADev/Dongtube) & [CoalToolKit](https://github.com/MHFADev/CoalToolKit)
-- 🌱 **Sedang Mempelajari:** Advanced TypeScript, Next.js 14, & Cloud Architecture
-- ⚡ **Fun Fact:** Saya bisa menghabiskan waktu berjam-jam hanya untuk merapikan pixel pada UI!
-- 📧 **Kontak:** [hilmi.firjatullah12@gmail.com](mailto:hilmi.firjatullah12@gmail.com)
+- 💻 **Fokus Utama:** React, Next.js, & Tailwind CSS.
+- 🤖 **AI-Powered:** Saya memanfaatkan kecerdasan buatan untuk mempercepat workflow dan meningkatkan kualitas kode.
+- ⚡ **Vibe:** Selalu mencari harmoni antara fungsionalitas dan desain yang memukau.
 - 🌐 **Portofolio:** [hilmiporto.vercel.app](https://hilmiporto.vercel.app)
+
+---
+
+### 🤖 AI Tools I Use
+
+Untuk mendukung proses kreatif dan teknis, saya menggunakan berbagai AI canggih:
+
+<p align="left">
+  <img src="https://img.shields.io/badge/Kimi%20AI-4B0082?style=for-the-badge&logo=ai&logoColor=white" alt="Kimi AI" />
+  <img src="https://img.shields.io/badge/Gemini-8E75C2?style=for-the-badge&logo=googlegemini&logoColor=white" alt="Gemini" />
+  <img src="https://img.shields.io/badge/AntiGravity-000000?style=for-the-badge&logo=rocket&logoColor=white" alt="AntiGravity" />
+  <img src="https://img.shields.io/badge/Trae-FF4500?style=for-the-badge&logo=code&logoColor=white" alt="Trae" />
+  <img src="https://img.shields.io/badge/ChatGPT-74aa9c?style=for-the-badge&logo=openai&logoColor=white" alt="ChatGPT" />
+  <img src="https://img.shields.io/badge/Qwen%203.5-2563EB?style=for-the-badge&logo=aliyun&logoColor=white" alt="Qwen" />
+</p>
 
 ---
 
@@ -28,7 +42,7 @@ Saya adalah seorang **Fullstack Developer** yang berdedikasi untuk menciptakan a
 
 <p align="center">
   <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=html,css,js,ts,react,nextjs,nodejs,express,python,flask,mysql,postgres,mongodb,tailwind,bootstrap,git,github,vscode,figma,vercel" />
+    <img src="https://skillicons.dev/icons?i=html,css,js,ts,react,nextjs,tailwind,bootstrap,nodejs,express,python,mysql,postgres,git,github,vscode,figma,vercel,replit,vite" />
   </a>
 </p>
 
@@ -44,14 +58,6 @@ Saya adalah seorang **Fullstack Developer** yang berdedikasi untuk menciptakan a
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=MHFADev&layout=compact&theme=tokyonight&hide_border=true" alt="Top Langs" />
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=MHFADev&theme=tokyonight&hide_border=true" alt="GitHub Streak" />
 </div>
-
----
-
-### 📈 Kontribusi Mingguan
-
-<p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=MHFADev&theme=tokyonight&hide_border=true&area=true" width="100%" />
-</p>
 
 ---
 
