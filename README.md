@@ -1,112 +1,107 @@
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=rect&color=0:0B1020,45:16213E,100:00B8A9&height=220&section=header&text=MHFADev&fontColor=F7FAFC&fontSize=76&fontAlignY=42&desc=interface-first%20developer%20%E2%80%A2%20building%20ideas%20into%20experiences&descAlignY=64&descSize=18&animation=fadeIn" alt="MHFADev — interface-first developer" width="100%" />
+  <a href="https://new-porto-lime.vercel.app">
+    <img src="https://raw.githubusercontent.com/MHFADev/MHFADev/main/assets/mhfadev-dashboard.svg" alt="MHFADev colored interface dashboard" width="100%" />
+  </a>
 </p>
 
 <p align="center">
-  <a href="https://github.com/MHFADev?tab=followers"><img src="https://img.shields.io/github/followers/MHFADev?label=FOLLOW&style=flat-square&color=00B8A9&labelColor=0B1020" alt="GitHub followers" /></a>
-  <a href="https://github.com/MHFADev?tab=repositories"><img src="https://img.shields.io/badge/BASE-INDONESIA-FFB703?style=flat-square&labelColor=0B1020" alt="Based in Indonesia" /></a>
-  <a href="https://new-porto-lime.vercel.app"><img src="https://img.shields.io/badge/OPEN-PORTFOLIO-8B5CF6?style=flat-square&labelColor=0B1020" alt="Open portfolio" /></a>
-  <img src="https://komarev.com/ghpvc/?username=MHFADev&label=PROFILE+VIEWS&color=00B8A9&style=flat-square" alt="Profile views" />
+  <a href="https://new-porto-lime.vercel.app"><img src="https://img.shields.io/badge/OPEN_PORTFOLIO-22D3EE?style=for-the-badge&logo=vercel&logoColor=06111F&labelColor=06111F" alt="Open portfolio" /></a>
+  <a href="https://github.com/MHFADev?tab=repositories"><img src="https://img.shields.io/badge/EXPLORE_BUILDS-8B5CF6?style=for-the-badge&logo=github&logoColor=FFFFFF&labelColor=06111F" alt="Explore GitHub projects" /></a>
+  <a href="mailto:hilmi.firjatullah12@gmail.com"><img src="https://img.shields.io/badge/START_A_CONVERSATION-F472B6?style=for-the-badge&logo=gmail&logoColor=FFFFFF&labelColor=06111F" alt="Send email" /></a>
 </p>
 
 <p align="center">
-  <a href="#now">NOW</a>&nbsp;&nbsp;·&nbsp;&nbsp;
+  <a href="#about">ABOUT</a>&nbsp;&nbsp;·&nbsp;&nbsp;
+  <a href="#signal-board">SIGNAL BOARD</a>&nbsp;&nbsp;·&nbsp;&nbsp;
   <a href="#toolkit">TOOLKIT</a>&nbsp;&nbsp;·&nbsp;&nbsp;
-  <a href="#selected-builds">SELECTED BUILDS</a>&nbsp;&nbsp;·&nbsp;&nbsp;
-  <a href="#github-pulse">GITHUB PULSE</a>&nbsp;&nbsp;·&nbsp;&nbsp;
-  <a href="#contact">CONTACT</a>
-</p>
-
-<p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=18&duration=2800&pause=900&color=00B8A9&center=true&vCenter=true&width=620&lines=Designing+interfaces+people+enjoy+using.;Turning+rough+ideas+into+polished+web+experiences.;Exploring+AI-assisted+creative+development." alt="Animated introduction" />
+  <a href="#project-modules">PROJECT MODULES</a>&nbsp;&nbsp;·&nbsp;&nbsp;
+  <a href="#github-pulse">GITHUB PULSE</a>
 </p>
 
 ---
 
-## `whoami`
+## `about`
 
-I am **Hilmi** — the developer behind **MHFADev**. I build web experiences where **clear structure, thoughtful interaction, and strong visual direction** work together. My approach is interface-first: begin with the people using the product, then turn the idea into fast, maintainable software.
+I am **Hilmi**, the developer behind **MHFADev**. I build web products with a sharp visual point of view, clean interaction patterns, and a practical path from first concept to deployed experience. I work interface-first: understand the flow, design the feel, then engineer the details that make the result dependable.
 
-> `status: building · learning · shipping`
+<p align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=17&duration=2400&pause=800&color=22D3EE&center=true&vCenter=true&width=720&lines=Build+the+flow.+Color+the+experience.+Ship+with+intent.;From+rough+ideas+to+interfaces+that+people+enjoy+using.;Design+curiosity+meets+frontend+engineering." alt="Animated MHFADev introduction" />
+</p>
 
 <details open>
-<summary><strong>Open developer snapshot</strong></summary>
+<summary><strong>OPEN // CURRENT MODE</strong></summary>
 
-```txt
-┌─ MHFADev / COMMAND CENTER ───────────────────────────────┐
-│ focus       : frontend engineering & product interfaces   │
-│ environment : React · Next.js · TypeScript · Tailwind CSS │
-│ workflow    : idea → prototype → polish → ship            │
-│ curiosity   : AI-assisted development & creative tooling  │
-└──────────────────────────────────────────────────────────┘
-```
+| System signal | Current state |
+| :-- | :-- |
+| **Focus** | Responsive interfaces, frontend systems, and product polish. |
+| **Workflow** | Explore the concept, prototype the flow, refine the details, then ship. |
+| **Creative edge** | AI-assisted iteration combined with deliberate visual judgment. |
+| **Availability** | Open to compelling web collaborations and product experiments. |
 
 </details>
 
-## `now`
+## `signal-board`
 
-| Signal | Direction |
-| :-- | :-- |
-| **Primary craft** | Building responsive web interfaces with attention to detail. |
-| **Working style** | Pairing design intuition with AI-assisted exploration and deliberate engineering. |
-| **Open to** | Interesting web products, frontend collaborations, and ambitious ideas that need a polished first version. |
-| **Home base** | Indonesia, collaborating remotely across the web. |
+<p align="center">
+  <img src="https://img.shields.io/badge/BASE-INDONESIA-FBBF24?style=flat-square&labelColor=0B1028" alt="Based in Indonesia" />
+  <img src="https://img.shields.io/badge/CORE-FRONTEND_SYSTEMS-22D3EE?style=flat-square&labelColor=0B1028" alt="Frontend systems" />
+  <img src="https://img.shields.io/badge/MODE-DESIGN_TO_DEPLOY-8B5CF6?style=flat-square&labelColor=0B1028" alt="Design to deploy" />
+  <img src="https://img.shields.io/badge/ENERGY-BUILD_AND_REFINE-F472B6?style=flat-square&labelColor=0B1028" alt="Build and refine" />
+</p>
+
+> **Color is part of the interface.** Every section is arranged to feel like a compact product dashboard: direct entry points, readable signals, live data, and space to explore without friction.
 
 ## `toolkit`
 
 <p align="center">
   <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=html,css,js,ts,react,nextjs,tailwind,nodejs,express,python,postgres,mysql,git,github,figma,vercel,vite&perline=17" alt="Core technology stack" />
+    <img src="https://skillicons.dev/icons?i=html,css,js,ts,react,nextjs,tailwind,nodejs,express,python,postgres,mysql,git,github,figma,vercel,vite&theme=dark&perline=17" alt="MHFADev technology toolkit" />
   </a>
 </p>
 
-<p align="center">
-  <sub>My core stack is shaped around modern frontend development, practical backend foundations, and design-to-deployment workflows.</sub>
-</p>
+| Layer | Tools I reach for |
+| :-- | :-- |
+| **Interface** | HTML, CSS, JavaScript, TypeScript, React, Next.js, and Tailwind CSS. |
+| **Application** | Node.js, Express, Python, PostgreSQL, and MySQL. |
+| **Creative delivery** | Figma, GitHub, Vercel, Vite, and a healthy amount of iteration. |
 
-## `selected-builds`
+## `project-modules`
 
-| Build | Snapshot | Destination |
+| Module | What it explores | Entry point |
 | :-- | :-- | :-- |
-| **SmartSort CLI** | An intelligent file-management utility built for cleaner local workflows. | [Explore repository →](https://github.com/MHFADev/smartsort-cli) |
-| **Lingkoraq** | A TypeScript project from the MHFADev workshop of product experiments. | [Explore repository →](https://github.com/MHFADev/Lingkoraq) |
-| **IT Support Bekasi** | A focused web presence for technical-support services. | [Explore repository →](https://github.com/MHFADev/it-support-bekasi-site) |
-| **Portfolio** | A living collection of work, experiments, and visual directions. | [Visit portfolio →](https://new-porto-lime.vercel.app) |
+| **SmartSort CLI** | Intelligent file management for cleaner everyday workflows. | [Open module →](https://github.com/MHFADev/smartsort-cli) |
+| **Lingkoraq** | A TypeScript product experiment from the MHFADev workshop. | [Open module →](https://github.com/MHFADev/Lingkoraq) |
+| **IT Support Bekasi** | A focused service presence for technical support. | [Open module →](https://github.com/MHFADev/it-support-bekasi-site) |
+| **Portfolio** | A curated window into work, experiments, and visual direction. | [Open module →](https://new-porto-lime.vercel.app) |
 
 <p align="center">
-  <a href="https://github.com/MHFADev?tab=repositories"><strong>Browse all repositories →</strong></a>
+  <a href="https://github.com/MHFADev?tab=repositories"><img src="https://img.shields.io/badge/VIEW_ALL_REPOSITORIES-0B1028?style=for-the-badge&logo=github&logoColor=22D3EE&labelColor=E2E8F0" alt="View all repositories" /></a>
 </p>
 
 ## `github-pulse`
 
 <p align="center">
-  <img height="170" src="https://github-readme-stats.vercel.app/api?username=MHFADev&show_icons=true&hide_title=true&hide_border=true&bg_color=00000000&title_color=00B8A9&icon_color=FFB703&text_color=C9D1D9&ring_color=8B5CF6" alt="GitHub contribution statistics" />
-  <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=MHFADev&layout=compact&hide_border=true&bg_color=00000000&title_color=00B8A9&text_color=C9D1D9" alt="Most used programming languages" />
+  <img height="170" src="https://github-readme-stats.vercel.app/api?username=MHFADev&show_icons=true&hide_title=true&hide_border=true&bg_color=0B1028&title_color=22D3EE&icon_color=FBBF24&text_color=E2E8F0&ring_color=8B5CF6" alt="MHFADev GitHub statistics" />
+  <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=MHFADev&layout=compact&hide_border=true&bg_color=0B1028&title_color=F472B6&text_color=E2E8F0" alt="MHFADev top languages" />
 </p>
 
 <p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=MHFADev&bg_color=0B1020&color=C9D1D9&line=00B8A9&point=FFB703&area=true&area_color=16213E&hide_border=true&radius=8" alt="GitHub activity graph" width="100%" />
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=MHFADev&bg_color=0B1028&color=CBD5E1&line=22D3EE&point=FBBF24&area=true&area_color=8B5CF6&hide_border=true&radius=8" alt="MHFADev GitHub activity graph" width="100%" />
 </p>
 
 <details>
-<summary><strong>Why this profile is built this way</strong></summary>
+<summary><strong>OPEN // WHY THIS PROFILE FEELS LIKE A UI</strong></summary>
 
-This README is designed as a small **developer landing page**, not a wall of badges. The navigation links, expandable panels, live GitHub signals, and project cards invite visitors to explore at their own pace while keeping the page easy to scan.
+GitHub profile READMEs do not support custom JavaScript, so this page uses the interactions GitHub does allow: **clickable navigation, action buttons, expandable panels, live data widgets, and linked project modules**. The result stays fast and native to GitHub while feeling closer to a designed product surface than a plain developer bio.
 
 </details>
 
-## `contact`
-
 <p align="center">
-  <a href="mailto:hilmi.firjatullah12@gmail.com"><img src="https://img.shields.io/badge/EMAIL-HILMI.FIRJATULLAH12%40GMAIL.COM-00B8A9?style=for-the-badge&labelColor=0B1020" alt="Email Hilmi" /></a>
-  <a href="https://github.com/MHFADev"><img src="https://img.shields.io/badge/GITHUB-MHFADEV-F7FAFC?style=for-the-badge&logo=github&logoColor=0B1020&labelColor=0B1020" alt="GitHub MHFADev" /></a>
-  <a href="https://new-porto-lime.vercel.app"><img src="https://img.shields.io/badge/PORTFOLIO-VISIT_SITE-8B5CF6?style=for-the-badge&logo=vercel&logoColor=white&labelColor=0B1020" alt="Portfolio website" /></a>
+  <a href="mailto:hilmi.firjatullah12@gmail.com">EMAIL</a>&nbsp;&nbsp;·&nbsp;&nbsp;
+  <a href="https://github.com/MHFADev">GITHUB</a>&nbsp;&nbsp;·&nbsp;&nbsp;
+  <a href="https://new-porto-lime.vercel.app">PORTFOLIO</a>
 </p>
 
 <p align="center">
-  <sub>Made with curiosity, refined through iteration, and always open to the next good idea.</sub>
-</p>
-
-<p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0B1020,45:16213E,100:00B8A9&height=100&section=footer" alt="Profile footer" width="100%" />
+  <sub>Designed in color. Built with intent. Always iterating.</sub>
 </p>
