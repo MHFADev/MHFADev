@@ -21,8 +21,7 @@
   <a href="#-about">ABOUT</a>&nbsp;&nbsp;·&nbsp;&nbsp;
   <a href="#-stats">STATS</a>&nbsp;&nbsp;·&nbsp;&nbsp;
   <a href="#-toolkit">TOOLKIT</a>&nbsp;&nbsp;·&nbsp;&nbsp;
-  <a href="#-project-modules">PROJECTS</a>&nbsp;&nbsp;·&nbsp;&nbsp;
-  <a href="#-trophies">TROPHIES</a>
+  <a href="#-project-modules">PROJECTS</a>
 </p>
 
 ---
@@ -93,20 +92,6 @@ I am **Hilmi**, the developer behind **MHFADev**. I build web products with a sh
 
 <p align="center">
   <a href="https://github.com/MHFADev?tab=repositories"><img src="https://img.shields.io/badge/VIEW_ALL_REPOSITORIES-0B1028?style=for-the-badge&logo=github&logoColor=22D3EE&labelColor=E2E8F0" alt="View all repositories" /></a>
-</p>
-
-## 🏆 `trophies`
-
-<p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=MHFADev&theme=radical&no-frame=true&no-bg=true&margin-w=12&column=7" alt="GitHub trophies" width="100%" />
-</p>
-
-## 🎮 `flappy-zone`
-
-<p align="center">
-  <img src="https://raw.githubusercontent.com/MHFADev/MHFADev/main/flappy-bird.svg" alt="Flappy bird pixel animation" width="220" />
-  <br />
-  <sub>A tiny game that never sleeps — frames regenerate automatically via GitHub Actions.</sub>
 </p>
 
 ---

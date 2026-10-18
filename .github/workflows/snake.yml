@@ -5,6 +5,10 @@ on:
     - cron: "0 0 * * *"
   workflow_dispatch:
 
+concurrency:
+  group: contribution-snake
+  cancel-in-progress: true
+
 permissions:
   contents: write
 
@@ -16,16 +20,16 @@ jobs:
       - name: Generate snake SVGs
         uses: Platane/snk/svg-only@v3
         with:
-          github_user_name: MHFADev
+          github_user_name: ${{ github.repository_owner }}
           outputs: |
             dist/github-snake.svg
             dist/github-snake-dark.svg?palette=github-dark
 
-      - name: Push to output branch
+      - name: Publish SVGs to output branch
         uses: crazy-max/ghaction-github-pages@v4
         with:
-          target_branch: output
           build_dir: dist
+          target_branch: output
           commit_message: "chore: regenerate contribution snake"
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
