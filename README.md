@@ -1,5 +1,5 @@
 <p align="center">
-  <a href="https://new-porto-lime.vercel.app">
+  <a href="https://mhilmi.my.id">
     <img src="https://raw.githubusercontent.com/MHFADev/MHFADev/main/assets/mhfadev-dashboard.svg" alt="MHFADev dashboard" width="100%" />
   </a>
 </p>
@@ -12,8 +12,8 @@
   <img src="https://komarev.com/ghpvc/?username=MHFADev&color=22d3ee&style=flat-square&label=PROFILE+VIEWS" alt="Profile views" />
   <img src="https://img.shields.io/github/followers/MHFADev?label=FOLLOWERS&style=flat-square&color=8b5cf6&logo=github&logoColor=white" alt="GitHub followers" />
   <img src="https://img.shields.io/github/stars/MHFADev?label=STARS&style=flat-square&color=fbbf24&logo=github&logoColor=white" alt="GitHub stars" />
-  <a href="https://new-porto-lime.vercel.app"><img src="https://img.shields.io/badge/PORTFOLIO-22D3EE?style=flat-square&logo=vercel&logoColor=06111F&labelColor=06111F" alt="Portfolio" /></a>
-  <a href="https://instagram.com/mhilmi.fa"><img src="https://img.shields.io/badge/INSTAGRAM-F472B6?style=flat-square&logo=instagram&logoColor=white&labelColor=06111F" alt="Instagram" /></a>
+  <a href="https://mhilmi.my.id"><img src="https://img.shields.io/badge/PORTFOLIO-22D3EE?style=flat-square&logo=vercel&logoColor=06111F&labelColor=06111F" alt="Portfolio" /></a>
+  <a href="https://instagram.com/mieeg0reng"><img src="https://img.shields.io/badge/INSTAGRAM-F472B6?style=flat-square&logo=instagram&logoColor=white&labelColor=06111F" alt="Instagram" /></a>
   <a href="mailto:hilmi.firjatullah12@gmail.com"><img src="https://img.shields.io/badge/EMAIL-FBBF24?style=flat-square&logo=gmail&logoColor=06111F&labelColor=06111F" alt="Email" /></a>
 </p>
 
@@ -91,7 +91,7 @@ Five custom SVG instruments, generated from GitHub's API and refreshed automatic
     <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/MHFADev/MHFADev/output/github-snake.svg" />
     <img alt="Contribution snake animation" src="https://raw.githubusercontent.com/MHFADev/MHFADev/output/github-snake-dark.svg" width="100%" />
   </picture>
-  <sub>Regenerated daily by GitHub Actions — the snake eats my contributions.</sub>
+  <sub>Regenerated every 6 hours by GitHub Actions — the snake eats my contributions.</sub>
 </p>
 
 ## 🛠 `toolkit`
@@ -115,7 +115,7 @@ Five custom SVG instruments, generated from GitHub's API and refreshed automatic
 | **SmartSort CLI** | Intelligent file management for cleaner everyday workflows. | [Open module →](https://github.com/MHFADev/smartsort-cli) |
 | **Lingkoraq** | A TypeScript product experiment from the MHFADev workshop. | [Open module →](https://github.com/MHFADev/Lingkoraq) |
 | **IT Support Bekasi** | A focused service presence for technical support. | [Open module →](https://github.com/MHFADev/it-support-bekasi-site) |
-| **Portfolio** | A curated window into work, experiments, and visual direction. | [Open module →](https://new-porto-lime.vercel.app) |
+| **Portfolio** | A curated window into work, experiments, and visual direction. | [Open module →](https://mhilmi.my.id) |
 
 <p align="center">
   <a href="https://github.com/MHFADev?tab=repositories"><img src="https://img.shields.io/badge/VIEW_ALL_REPOSITORIES-0B1028?style=for-the-badge&logo=github&logoColor=22D3EE&labelColor=E2E8F0" alt="View all repositories" /></a>
@@ -126,8 +126,8 @@ Five custom SVG instruments, generated from GitHub's API and refreshed automatic
 <p align="center">
   <a href="mailto:hilmi.firjatullah12@gmail.com">EMAIL</a>&nbsp;&nbsp;·&nbsp;&nbsp;
   <a href="https://github.com/MHFADev">GITHUB</a>&nbsp;&nbsp;·&nbsp;&nbsp;
-  <a href="https://instagram.com/mhilmi.fa">INSTAGRAM</a>&nbsp;&nbsp;·&nbsp;&nbsp;
-  <a href="https://new-porto-lime.vercel.app">PORTFOLIO</a>
+  <a href="https://instagram.com/mieeg0reng">INSTAGRAM</a>&nbsp;&nbsp;·&nbsp;&nbsp;
+  <a href="https://mhilmi.my.id">PORTFOLIO</a>
 </p>
 
 <p align="center">

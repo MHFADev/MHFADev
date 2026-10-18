@@ -7,6 +7,7 @@ import os
 import urllib.error
 import urllib.parse
 import urllib.request
+import math
 from collections import Counter
 from datetime import datetime, timedelta, timezone
 from html import escape
@@ -114,19 +115,21 @@ def esc(value) -> str:
 
 def common_defs() -> str:
     return """<defs>
-      <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#07111f"/><stop offset="1" stop-color="#101a3d"/></linearGradient>
-      <linearGradient id="cyan" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#22d3ee"/><stop offset="1" stop-color="#8b5cf6"/></linearGradient>
-      <linearGradient id="pink" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#f472b6"/><stop offset="1" stop-color="#fbbf24"/></linearGradient>
-      <filter id="glow"><feGaussianBlur stdDeviation="3" result="blur"/><feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
-      <style>text{font-family:ui-monospace,SFMono-Regular,Menlo,monospace}.muted{fill:#94a3b8}.label{fill:#cbd5e1;font-size:11px}.value{fill:#f8fafc;font-size:24px;font-weight:700}.tiny{fill:#64748b;font-size:9px}</style>
+      <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#070d1b"/><stop offset=".55" stop-color="#0b1530"/><stop offset="1" stop-color="#151238"/></linearGradient>
+      <linearGradient id="cyan" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#67e8f9"/><stop offset=".55" stop-color="#22d3ee"/><stop offset="1" stop-color="#818cf8"/></linearGradient>
+      <linearGradient id="pink" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#f9a8d4"/><stop offset="1" stop-color="#fbbf24"/></linearGradient>
+      <pattern id="grid" width="28" height="28" patternUnits="userSpaceOnUse"><path d="M28 0H0V28" fill="none" stroke="#94a3b8" stroke-opacity=".045"/></pattern>
+      <filter id="glow"><feGaussianBlur stdDeviation="4" result="blur"/><feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+      <filter id="soft"><feGaussianBlur stdDeviation="10"/></filter>
+      <style>text{font-family:ui-monospace,SFMono-Regular,Menlo,monospace}.muted{fill:#94a3b8}.label{fill:#dbeafe;font-size:11px;letter-spacing:.3px}.value{fill:#f8fafc;font-size:25px;font-weight:700;letter-spacing:-.8px}.tiny{fill:#64748b;font-size:9px;letter-spacing:.35px}.eyebrow{fill:#67e8f9;font-size:10px;letter-spacing:2.2px;font-weight:700}</style>
     </defs>"""
 
 
 def shell(title: str, subtitle: str, body: str, height: int = 220, link: str = "https://github.com/MHFADev") -> str:
     return f'''<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="900" height="{height}" viewBox="0 0 900 {height}">
   <title>{esc(title)} — {esc(subtitle)}</title>{common_defs()}
-  <a href="{link}"><rect width="900" height="{height}" rx="18" fill="url(#bg)" stroke="#26345f"/><rect x="1" y="1" width="898" height="{height-2}" rx="17" fill="none" stroke="#22d3ee" stroke-opacity=".16"/></a>
-  <text x="28" y="34" fill="#22d3ee" font-size="12" letter-spacing="2">MHFADEV // {esc(title.upper())}</text>
+  <a href="{link}"><rect width="900" height="{height}" rx="18" fill="url(#bg)" stroke="#2b3b67"/><rect width="900" height="{height}" rx="18" fill="url(#grid)"/><rect x="1" y="1" width="898" height="{height-2}" rx="17" fill="none" stroke="#67e8f9" stroke-opacity=".16"/><path d="M28 72H872" stroke="#334155" stroke-opacity=".48"/><circle cx="28" cy="34" r="3" fill="#67e8f9"/><circle cx="38" cy="34" r="3" fill="#a78bfa" opacity=".7"/><circle cx="48" cy="34" r="3" fill="#f9a8d4" opacity=".7"/></a>
+  <text x="64" y="38" class="eyebrow">MHFADEV // {esc(title.upper())}</text>
   <text x="28" y="56" class="muted" font-size="11">{esc(subtitle)}</text>
   {body}
   <text x="872" y="{height-18}" text-anchor="end" class="tiny">LIVE SNAPSHOT · {esc(NOW.strftime('%Y-%m-%d %H:%M UTC'))}</text>
@@ -138,7 +141,7 @@ def command_center(d: dict) -> str:
     body = []
     for i, (label, value, color) in enumerate(cards):
         x = 28 + i * 214
-        body.append(f'''<g transform="translate({x},82)"><rect width="194" height="92" rx="12" fill="#0b1630" stroke="{color}" stroke-opacity=".32"/><circle cx="18" cy="20" r="4" fill="{color}" filter="url(#glow)"><animate attributeName="r" values="3;6;3" dur="2.4s" repeatCount="indefinite"/></circle><text x="32" y="24" class="label">{esc(label)}</text><text x="16" y="64" class="value">{esc(value)}</text><path d="M16 76h162" stroke="{color}" stroke-opacity=".22" stroke-dasharray="3 8"><animate attributeName="stroke-dashoffset" from="0" to="-22" dur="1s" repeatCount="indefinite"/></path></g>''')
+        body.append(f'''<g transform="translate({x},86)"><rect width="194" height="82" rx="14" fill="#0b1630" fill-opacity=".84" stroke="{color}" stroke-opacity=".34"/><circle cx="18" cy="20" r="4" fill="{color}" filter="url(#glow)"><animate attributeName="r" values="3;5;3" dur="3.6s" repeatCount="indefinite"/></circle><text x="32" y="24" class="label">{esc(label)}</text><text x="16" y="60" class="value">{esc(value)}</text><path d="M16 70h162" stroke="{color}" stroke-opacity=".22" stroke-dasharray="2 9"><animate attributeName="stroke-dashoffset" from="0" to="-22" dur="1.8s" repeatCount="indefinite"/></path></g>''')
     return shell("COMMAND CENTER", f"{d['name']} // profile telemetry is synced from GitHub API", "".join(body), 220)
 
 
@@ -162,9 +165,9 @@ def language_orbit(d: dict) -> str:
     cx, cy = 450, 125
     for i, (name, _, pct) in enumerate(d["languages"] or [("Code", 1, 100)]):
         angle = i / max(1, len(d["languages"])) * 6.283
-        x, y = round(cx + 170 * __import__('math').cos(angle), 1), round(cy + 70 * __import__('math').sin(angle), 1)
+        x, y = round(cx + 170 * math.cos(angle), 1), round(cy + 70 * math.sin(angle), 1)
         color = colors[i % len(colors)]
-        nodes.append(f'''<g><ellipse cx="{cx}" cy="{cy}" rx="{75+i*17}" ry="{31+i*7}" fill="none" stroke="{color}" stroke-opacity=".16" stroke-dasharray="4 8" transform="rotate({i*17} {cx} {cy})"><animateTransform attributeName="transform" type="rotate" from="{i*17} {cx} {cy}" to="{360+i*17} {cx} {cy}" dur="{18+i*3}s" repeatCount="indefinite"/></ellipse><circle cx="{x}" cy="{y}" r="9" fill="{color}" filter="url(#glow)"><animate attributeName="r" values="7;11;7" dur="{1.8+i*.2}s" repeatCount="indefinite"/></circle><text x="{x+15}" y="{y+4}" class="label">{esc(name)} {pct}%</text></g>''')
+        nodes.append(f'''<g><ellipse cx="{cx}" cy="{cy}" rx="{90+i*16}" ry="{37+i*6}" fill="none" stroke="{color}" stroke-opacity=".15" stroke-dasharray="3 11" transform="rotate({i*17} {cx} {cy})"><animateTransform attributeName="transform" type="rotate" from="{i*17} {cx} {cy}" to="{360+i*17} {cx} {cy}" dur="{26+i*3}s" repeatCount="indefinite"/></ellipse><circle cx="{x}" cy="{y}" r="8" fill="{color}" filter="url(#glow)"><animate attributeName="r" values="7;9;7" dur="{3+i*.3}s" repeatCount="indefinite"/></circle><text x="{x+15}" y="{y+4}" class="label">{esc(name)} <tspan fill="#94a3b8">{pct}%</tspan></text></g>''')
     body = f'''<circle cx="{cx}" cy="{cy}" r="34" fill="#0b1630" stroke="#22d3ee" stroke-opacity=".5"/><text x="{cx}" y="{cy-2}" text-anchor="middle" fill="#f8fafc" font-size="12" font-weight="700">STACK</text><text x="{cx}" y="{cy+14}" text-anchor="middle" class="tiny">IN MOTION</text>{''.join(nodes)}'''
     return shell("LANGUAGE ORBIT", "Repository language mix · each orbit is proportional to your current stack", body, 220, "https://github.com/MHFADev?tab=repositories")
 
@@ -186,14 +189,13 @@ def project_constellation(d: dict) -> str:
     repos = d["repos"] or [{"name": "MHFADev", "stargazers_count": 0, "html_url": "https://github.com/MHFADev"}]
     nodes = []
     for i, repo in enumerate(repos):
-        x = 95 + (i % 3) * 350
-        y = 90 + (i // 3) * 62
+        x = 34 + (i % 2) * 432
+        y = 94 + (i // 2) * 39
         color = colors[i % len(colors)]
         name = repo.get("name", "project")[:24]
         stars = repo.get("stargazers_count", 0)
-        nodes.append(f'''<a href="{esc(repo.get('html_url', 'https://github.com/MHFADev'))}"><g><circle cx="{x}" cy="{y}" r="10" fill="{color}" filter="url(#glow)"><animate attributeName="r" values="8;13;8" dur="{2+i*.25}s" repeatCount="indefinite"/></circle><text x="{x+20}" y="{y+4}" class="label">{esc(name)}</text><text x="{x+20}" y="{y+19}" class="tiny">★ {stars} · click to open</text></g></a>''')
-    links = ''.join(f'<path d="M95 {90+i//3*62} C260 {65+i*3} 360 {150-i*4} {95+(i+1)%3*350} {90+((i+1)%3//3)*62}" fill="none" stroke="#26345f" stroke-dasharray="3 10"><animate attributeName="stroke-dashoffset" from="0" to="-26" dur="2s" repeatCount="indefinite"/></path>' for i in range(min(5, len(repos)-1)))
-    body = f'''<text x="28" y="84" class="label">TOP PROJECTS BY STARS · <tspan fill="#fbbf24">{d['stars']} total stars across owned repos</tspan></text>{links}{''.join(nodes)}'''
+        nodes.append(f'''<a href="{esc(repo.get('html_url', 'https://github.com/MHFADev'))}"><g><rect x="{x}" y="{y-18}" width="400" height="30" rx="10" fill="#0b1630" fill-opacity=".72" stroke="{color}" stroke-opacity=".2"/><circle cx="{x+16}" cy="{y-3}" r="5" fill="{color}" filter="url(#glow)"><animate attributeName="r" values="4;6;4" dur="{3+i*.25}s" repeatCount="indefinite"/></circle><text x="{x+30}" y="{y+1}" class="label">{esc(name)}</text><text x="{x+380}" y="{y+1}" text-anchor="end" class="tiny">★ {stars} · OPEN</text></g></a>''')
+    body = f'''<text x="28" y="84" class="label">TOP PROJECTS BY STARS · <tspan fill="#fbbf24">{d['stars']} total stars across owned repos</tspan></text>{''.join(nodes)}'''
     return shell("PROJECT CONSTELLATION", "Your most visible repositories, connected as a living project map", body, 220, "https://github.com/MHFADev?tab=repositories")
 
 
