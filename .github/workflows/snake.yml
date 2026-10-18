@@ -1,12 +1,12 @@
-name: Generate Contribution Snake
+name: Refresh GitHub Profile Animations
 
 on:
   schedule:
-    - cron: "0 0 * * *"
+    - cron: "0 */6 * * *"
   workflow_dispatch:
 
 concurrency:
-  group: contribution-snake
+  group: github-profile-visuals
   cancel-in-progress: true
 
 permissions:
@@ -15,9 +15,19 @@ permissions:
 jobs:
   generate:
     runs-on: ubuntu-latest
-    timeout-minutes: 10
+    timeout-minutes: 15
     steps:
-      - name: Generate snake SVGs
+      - name: Check out profile repository
+        uses: actions/checkout@v4
+
+      - name: Generate live profile animations
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_USERNAME: ${{ github.repository_owner }}
+          OUTPUT_DIR: dist
+        run: python3 scripts/generate-profile-animations.py
+
+      - name: Generate contribution snake
         uses: Platane/snk/svg-only@v3
         with:
           github_user_name: ${{ github.repository_owner }}
@@ -25,11 +35,11 @@ jobs:
             dist/github-snake.svg
             dist/github-snake-dark.svg?palette=github-dark
 
-      - name: Publish SVGs to output branch
+      - name: Publish all visuals to output branch
         uses: crazy-max/ghaction-github-pages@v4
         with:
           build_dir: dist
           target_branch: output
-          commit_message: "chore: regenerate contribution snake"
+          commit_message: "chore: refresh live profile visuals"
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

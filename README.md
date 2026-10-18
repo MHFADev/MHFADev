@@ -20,6 +20,7 @@
 <p align="center">
   <a href="#-about">ABOUT</a>&nbsp;&nbsp;·&nbsp;&nbsp;
   <a href="#-stats">STATS</a>&nbsp;&nbsp;·&nbsp;&nbsp;
+  <a href="#-live-lab">LIVE LAB</a>&nbsp;&nbsp;·&nbsp;&nbsp;
   <a href="#-toolkit">TOOLKIT</a>&nbsp;&nbsp;·&nbsp;&nbsp;
   <a href="#-project-modules">PROJECTS</a>
 </p>
@@ -55,6 +56,32 @@ I am **Hilmi**, the developer behind **MHFADev**. I build web products with a sh
   <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=MHFADev&layout=donut&hide_border=true&bg_color=0B1028&title_color=F472B6&text_color=E2E8F0" alt="Top languages" />
   <img height="170" src="https://github-readme-activity-graph.vercel.app/graph?username=MHFADev&bg_color=0B1028&color=CBD5E1&line=22D3EE&point=FBBF24&area=true&area_color=8B5CF6&hide_border=true&radius=8" alt="Activity graph" />
 </p>
+
+## 🛰️ `live-lab`
+
+Five custom SVG instruments, generated from GitHub's API and refreshed automatically every 6 hours. Hover the charts for detail; click a panel or project node to jump into the live GitHub view.
+
+<p align="center">
+  <a href="https://github.com/MHFADev"><img src="https://raw.githubusercontent.com/MHFADev/MHFADev/output/profile-command-center.svg" alt="Live GitHub command center" width="100%" /></a>
+</p>
+
+<p align="center">
+  <a href="https://github.com/MHFADev?tab=overview"><img src="https://raw.githubusercontent.com/MHFADev/MHFADev/output/profile-contribution-pulse.svg" alt="Animated contribution pulse for the last 30 days" width="100%" /></a>
+</p>
+
+<p align="center">
+  <a href="https://github.com/MHFADev?tab=repositories"><img src="https://raw.githubusercontent.com/MHFADev/MHFADev/output/profile-language-orbit.svg" alt="Animated programming language orbit" width="100%" /></a>
+</p>
+
+<p align="center">
+  <a href="https://github.com/MHFADev?tab=activity"><img src="https://raw.githubusercontent.com/MHFADev/MHFADev/output/profile-commit-velocity.svg" alt="Animated GitHub activity velocity" width="100%" /></a>
+</p>
+
+<p align="center">
+  <a href="https://github.com/MHFADev?tab=repositories"><img src="https://raw.githubusercontent.com/MHFADev/MHFADev/output/profile-project-constellation.svg" alt="Animated project constellation" width="100%" /></a>
+</p>
+
+<sub>Data refreshes via GitHub Actions. GitHub may cache embedded images briefly; use the linked panels for the freshest live view.</sub>
 
 ### 🐍 contribution snake
 
